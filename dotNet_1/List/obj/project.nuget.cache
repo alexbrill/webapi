@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1+S+OMfAmsUYFVOt4Zm/j2m8QFQ1hOisE/W1jL7Vxop0KjwUQWcrqB6Pz4nyIU2bAn69uPXV4Pbe461F1mKh5Q==",
+  "dgSpecHash": "cRpVKZp944TtOjZmSKS1xRx/MZqXPWIQstKocltpcvLQGgJdjVHS1VK9cx+fAjZHlIRMP1NNo9UU+p9sEvcnSw==",
   "success": true,
-  "projectFilePath": "D:\\VS2019\\dotnet_1\\dotNet_1\\List\\List.csproj",
+  "projectFilePath": "C:\\Users\\Alex\\Source\\Repos\\webapi\\dotNet_1\\List\\List.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

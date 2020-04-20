@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ubAsxyDpgn2+n1+VoMcaL0EC8iQzJ1NRKf5O0O9MnY9Nrt16ZjZkqkm8qe88VbKWAW8pfdiPSxdNwGs58Thz0Q==",
+  "dgSpecHash": "qPuaBAW9xQHLMXa0/yzK0CzWjCSttg2I557k0ZG5SLX+NKrlLPghnopvk2H6cr75nXB8NjOlZ+QC6fwm5h+Ljw==",
   "success": true,
-  "projectFilePath": "D:\\VS2019\\dotnet_1\\dotNet_1\\InsertionSort\\InsertionSort.csproj",
+  "projectFilePath": "C:\\Users\\Alex\\Source\\Repos\\webapi\\dotNet_1\\InsertionSort\\InsertionSort.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

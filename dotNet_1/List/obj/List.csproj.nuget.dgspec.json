@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VS2019\\dotnet_1\\dotNet_1\\List\\List.csproj": {}
+    "C:\\Users\\Alex\\Source\\Repos\\webapi\\dotNet_1\\List\\List.csproj": {}
   },
   "projects": {
-    "D:\\VS2019\\dotnet_1\\dotNet_1\\List\\List.csproj": {
+    "C:\\Users\\Alex\\Source\\Repos\\webapi\\dotNet_1\\List\\List.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VS2019\\dotnet_1\\dotNet_1\\List\\List.csproj",
+        "projectUniqueName": "C:\\Users\\Alex\\Source\\Repos\\webapi\\dotNet_1\\List\\List.csproj",
         "projectName": "List",
-        "projectPath": "D:\\VS2019\\dotnet_1\\dotNet_1\\List\\List.csproj",
+        "projectPath": "C:\\Users\\Alex\\Source\\Repos\\webapi\\dotNet_1\\List\\List.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "D:\\VS2019\\dotnet_1\\dotNet_1\\List\\obj\\",
+        "outputPath": "C:\\Users\\Alex\\Source\\Repos\\webapi\\dotNet_1\\List\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

@@ -8,12 +8,12 @@ namespace List
 {
     public class Node<T>
     {
-        public T Data { get; }
+        public T Value { get; }
         public Node<T> Next { get; set; }
 
-        public Node(T data)
+        public Node(T value)
         {
-            Data = data;
+            Value = value;
         }
     }
 
@@ -26,12 +26,12 @@ namespace List
         public bool IsEmpty => _count == 0;
         public int Count => _count;
 
-        public void Push_Back(T data)
+        public void Push_Back(T value)
         {
-            if (data == null)
-                throw new ArgumentNullException(nameof(data));
+            if (value == null)
+                throw new ArgumentNullException(nameof(value));
 
-            var node = new Node<T>(data);
+            var node = new Node<T>(value);
             if (_head == null)
                 _head = node;
             else
@@ -41,9 +41,9 @@ namespace List
             _count++;
         }
         
-        public void Push_Forward(T data)
+        public void Push_Forward(T value)
         {
-            var node = new Node<T>(data);
+            var node = new Node<T>(value);
             node.Next = _head;
             _head = node;
             if (IsEmpty)
@@ -52,13 +52,13 @@ namespace List
             _count++;
         }
         
-        public bool Remove(T data)
+        public bool Remove(T value)
         {
             Node<T> cur = _head;
             Node<T> prev = null;
             while (cur != null)
             {
-                if (data != null && cur.Data.Equals(data))
+                if (value != null && cur.Value.Equals(value))
                 {
                     if (prev != null)
                     {
@@ -122,7 +122,7 @@ namespace List
             var cur = _head;
             while (cur != null)
             {
-                yield return cur.Data;
+                yield return cur.Value;
                 cur = cur.Next;
             }
         }

@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VS2019\\dotnet_1\\dotNet_1\\InsertionSort\\InsertionSort.csproj": {}
+    "C:\\Users\\Alex\\Source\\Repos\\webapi\\dotNet_1\\InsertionSort\\InsertionSort.csproj": {}
   },
   "projects": {
-    "D:\\VS2019\\dotnet_1\\dotNet_1\\InsertionSort\\InsertionSort.csproj": {
+    "C:\\Users\\Alex\\Source\\Repos\\webapi\\dotNet_1\\InsertionSort\\InsertionSort.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VS2019\\dotnet_1\\dotNet_1\\InsertionSort\\InsertionSort.csproj",
+        "projectUniqueName": "C:\\Users\\Alex\\Source\\Repos\\webapi\\dotNet_1\\InsertionSort\\InsertionSort.csproj",
         "projectName": "InsertionSort",
-        "projectPath": "D:\\VS2019\\dotnet_1\\dotNet_1\\InsertionSort\\InsertionSort.csproj",
+        "projectPath": "C:\\Users\\Alex\\Source\\Repos\\webapi\\dotNet_1\\InsertionSort\\InsertionSort.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "D:\\VS2019\\dotnet_1\\dotNet_1\\InsertionSort\\obj\\",
+        "outputPath": "C:\\Users\\Alex\\Source\\Repos\\webapi\\dotNet_1\\InsertionSort\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

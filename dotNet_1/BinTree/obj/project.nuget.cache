@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xR4IqYp28n7jXW3hcI+Z33eoUhuZzYOgnLPQFspzl+bdEJ8yNTLtmCPG9Y/CXioOVz8fz+iCvM9PbdoVHpVldA==",
+  "dgSpecHash": "64u93zv+RB5nf0vsCIqLFq+Y9GrlfCEHKWtqi3VntGfYV6jwO9FJ05vg/ikzejrsybOL7pyEOniPqP/rGOb9+Q==",
   "success": true,
-  "projectFilePath": "D:\\VS2019\\dotnet_1\\dotNet_1\\BinTree\\BinTree.csproj",
+  "projectFilePath": "C:\\Users\\Alex\\Source\\Repos\\webapi\\dotNet_1\\BinTree\\BinTree.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

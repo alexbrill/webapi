@@ -134,7 +134,7 @@ namespace BinaryTree
                         }
                         else
                         {
-                            var minimalNode = GetMinimalNode(root.Right);
+                            var minimalNode = GetMinNode(root.Right);
                             root.Value = minimalNode.Value;
                             root.Right = RemoveNode(root.Right, minimalNode);
                         }
@@ -146,7 +146,7 @@ namespace BinaryTree
             return root;
         }
 
-        private static Node GetMinimalNode(Node currentNode)
+        private static Node GetMinNode(Node currentNode)
         {
             while (currentNode?.Left != null)
                 currentNode = currentNode.Left;
@@ -193,6 +193,8 @@ namespace BinaryTree
             tree.InsertNode(Convert.ToInt32(4));
             tree.InsertNode(Convert.ToInt32(7));
 
+            tree.InOrderTravers();
+
 
             tree.RemoveNode(Convert.ToInt32(3));
 
@@ -200,7 +202,7 @@ namespace BinaryTree
             var temp = tree.SearchNode(Convert.ToInt32(3));
             Console.WriteLine(temp != null ? "Found!" : "Not found!");
 
-            var temp = tree.SearchNode(Convert.ToInt32(7));
+            temp = tree.SearchNode(Convert.ToInt32(7));
             Console.WriteLine(temp != null ? "Found!" : "Not found!");
 
             tree.InOrderTravers();

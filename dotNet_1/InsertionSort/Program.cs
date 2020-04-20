@@ -22,11 +22,11 @@ namespace InsertionSort
             return array;
         }
 
-        private static void Swap(ref int valueA, ref int valueB)
+        private static void Swap(ref int A, ref int B)
         {
-            var temp = valueA;
-            valueA = valueB;
-            valueB = temp;
+            var temp = A;
+            A = B;
+            B = temp;
         }
 
         public static void Main(string[] args)
