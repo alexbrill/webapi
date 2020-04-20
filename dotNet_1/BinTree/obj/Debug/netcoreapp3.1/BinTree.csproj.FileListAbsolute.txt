@@ -1,0 +1,13 @@
+D:\VS2019\dotnet_1\dotNet_1\BinTree\bin\Debug\netcoreapp3.1\BinTree.exe
+D:\VS2019\dotnet_1\dotNet_1\BinTree\bin\Debug\netcoreapp3.1\BinTree.deps.json
+D:\VS2019\dotnet_1\dotNet_1\BinTree\bin\Debug\netcoreapp3.1\BinTree.runtimeconfig.json
+D:\VS2019\dotnet_1\dotNet_1\BinTree\bin\Debug\netcoreapp3.1\BinTree.runtimeconfig.dev.json
+D:\VS2019\dotnet_1\dotNet_1\BinTree\bin\Debug\netcoreapp3.1\BinTree.dll
+D:\VS2019\dotnet_1\dotNet_1\BinTree\bin\Debug\netcoreapp3.1\BinTree.pdb
+D:\VS2019\dotnet_1\dotNet_1\BinTree\obj\Debug\netcoreapp3.1\BinTree.csprojAssemblyReference.cache
+D:\VS2019\dotnet_1\dotNet_1\BinTree\obj\Debug\netcoreapp3.1\BinTree.csproj.CoreCompileInputs.cache
+D:\VS2019\dotnet_1\dotNet_1\BinTree\obj\Debug\netcoreapp3.1\BinTree.AssemblyInfoInputs.cache
+D:\VS2019\dotnet_1\dotNet_1\BinTree\obj\Debug\netcoreapp3.1\BinTree.AssemblyInfo.cs
+D:\VS2019\dotnet_1\dotNet_1\BinTree\obj\Debug\netcoreapp3.1\BinTree.dll
+D:\VS2019\dotnet_1\dotNet_1\BinTree\obj\Debug\netcoreapp3.1\BinTree.pdb
+D:\VS2019\dotnet_1\dotNet_1\BinTree\obj\Debug\netcoreapp3.1\BinTree.genruntimeconfig.cache
