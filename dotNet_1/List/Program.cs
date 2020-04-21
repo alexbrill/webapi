@@ -1,6 +1,4 @@
-﻿
-
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -11,10 +9,7 @@ namespace List
         public T Value { get; }
         public Node<T> Next { get; set; }
 
-        public Node(T value)
-        {
-            Value = value;
-        }
+        public Node(T value) { Value = value; }
     }
 
     public class List<T> : IEnumerable<T>

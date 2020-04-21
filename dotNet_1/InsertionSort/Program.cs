@@ -5,6 +5,14 @@ namespace InsertionSort
     public static class Program
     {
        
+        private static void Swap(ref int A, ref int B)
+        {
+            var temp = A;
+            A = B;
+            B = temp;
+        }
+
+
         private static int[] InsertionSort(int[] array)
         {
             for (var index = 1; index < array.Length; index++)
@@ -22,23 +30,20 @@ namespace InsertionSort
             return array;
         }
 
-        private static void Swap(ref int A, ref int B)
-        {
-            var temp = A;
-            A = B;
-            B = temp;
-        }
+        
 
         public static void Main(string[] args)
         {
             Console.Write("Please, enter the values: ");
             var values = Console.ReadLine()?.Split(new[] { " ", "," },
                                                             StringSplitOptions.RemoveEmptyEntries);
+
+
             var array = new int[values.Length];
             for (var index = 0; index < values.Length; index++)
                 array[index] = Convert.ToInt32(values[index]);
 
-            Console.WriteLine("Sorted by insertions: {0}", string.Join(" ", InsertionSort(array)));
+            Console.WriteLine("OUTPUT: {0}", string.Join(" ", InsertionSort(array)));
         }
     }
 }
