@@ -187,24 +187,31 @@ namespace BinaryTree
         {
             var tree = new BinaryTree();
 
+            Console.WriteLine("1, 3, -1, 4, 7 are added");
+
             tree.InsertNode(Convert.ToInt32(1));
             tree.InsertNode(Convert.ToInt32(3));
             tree.InsertNode(Convert.ToInt32(-1));
             tree.InsertNode(Convert.ToInt32(4));
             tree.InsertNode(Convert.ToInt32(7));
 
+
+            Console.WriteLine("Travers: ");
             tree.InOrderTravers();
 
-
+            Console.WriteLine("Remove 3");
             tree.RemoveNode(Convert.ToInt32(3));
 
-
+            Console.WriteLine("Find 3 :");
             var temp = tree.SearchNode(Convert.ToInt32(3));
             Console.WriteLine(temp != null ? "Found!" : "Not found!");
 
+            Console.WriteLine("Find 7 :");
             temp = tree.SearchNode(Convert.ToInt32(7));
             Console.WriteLine(temp != null ? "Found!" : "Not found!");
 
+
+            Console.WriteLine("Travers: ");
             tree.InOrderTravers();
 
 
